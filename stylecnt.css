@@ -18,12 +18,10 @@ body {
     align-items: center;
 }
 
-header {
-    margin-bottom: 5%;
-}
+
 
 .content {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255,0.7);
     width: 500px;
     padding-left: 40%;
     padding-right: 40%;
@@ -49,7 +47,7 @@ header>li {
     justify-content: space-around;
 }
 
-h2 {
+header>li>ul h2 {
 
     margin: 0 10px;
     font-size: 1.5rem;
@@ -74,3 +72,19 @@ header>li>ul a:hover {
     width: 30px;
     height: 30px;
 }
+
+.content > li {
+    list-style: none ;
+    
+}
+
+
+.content ul {
+    width: 100%;
+} 
+.content ul > a {
+    color: black;
+
+}
+
+
