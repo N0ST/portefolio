@@ -71,6 +71,7 @@ header>li>ul a:hover {
 .socialmedia {
     width: 30px;
     height: 30px;
+    padding-right: 5px;
 }
 
 .content > li {
