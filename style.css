@@ -1,80 +1,80 @@
 @font-face {
-    font-family: 'CustomFont';
-    src: url('font/HomeVideo-BLG6G.ttf') format('truetype');
+  font-family: 'CustomFont';
+  src: url('font/HomeVideo-BLG6G.ttf') format('truetype');
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Customfont', sans-serif;
-    display: flex;
-    flex-direction: column;
-    
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Customfont', sans-serif;
+  display: flex;
+  flex-direction: column;
+
 }
 
-h1{
-    color: rgb(0, 0, 0);
+h1 {
+  color: rgb(0, 0, 0);
 }
 
 a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 a:hover {
-    color: #124c8fbb;
+  color: #124c8fbb;
 }
 
-    .hero {
-      position: relative;
-      height: 100vh;
-      background-image: url('img/fond_index.png');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-    }
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('img/fond_index.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-      background-color: white;
-      padding-left: 3%;
-      padding-right: 3% ;
-    }
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
-    .subtitles {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      max-width: 800px;
-    }
+.subtitles {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+}
 
-    .subtitles h2 {
-      flex: 1;
-      margin: 0 10px;
-      font-size: 1.5rem;
-      padding: 5px;
-      background-color: white;
-    }
+.subtitles h2 {
+  flex: 1;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  padding: 5px;
+  background-color: white;
+}
 
-    @media (max-width: 768px) {
-      .subtitles {
-        flex-direction: column;
-        gap: 1rem;
-      }
+@media (max-width: 768px) {
+  .subtitles {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-      .subtitles h2 {
-        margin: 0;
-        text-align: center;
-      }
-    }
+  .subtitles h2 {
+    margin: 0;
+    text-align: center;
+  }
+}
 
-    .socialmedia{
-        width: 30px;
-        height: 30px;
-    }
+.socialmedia {
+  width: 30px;
+  height: 30px;
+}
