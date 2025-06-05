@@ -10,7 +10,6 @@
     width: 500px;
     padding-left: 40%;
     padding-right: 40%;
-    padding-bottom: 40%;
 
 }
 
@@ -18,7 +17,7 @@
 .current,
 .current:visited {
     color: #124c8fbb;
-    text-decoration: overline underline dashed;
+    text-decoration: underline dashed ;
 }
 
 
@@ -45,6 +44,14 @@ html {
     background-image: url('img/fond_index.png');
     background-size: cover;
     background-position: center;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-right: 5%;
 }
 
 header>li {

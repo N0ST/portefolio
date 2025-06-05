@@ -18,7 +18,15 @@
 .current,
 .current:visited {
     color: #124c8fbb;
-    text-decoration: overline underline dashed;
+    text-decoration: underline dashed;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-right: 5%;
 }
 
 

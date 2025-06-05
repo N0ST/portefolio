@@ -7,7 +7,7 @@
 .current,
 .current:visited {
     color: #124c8fbb;
-    text-decoration: overline underline dashed;
+    text-decoration: underline dashed;
 }
 
 
@@ -19,14 +19,21 @@ body {
 }
 
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-right: 5%;
+}
+
 
 .content {
-    background-color: rgb(255, 255, 255,0.8);
+    background-color: rgb(255, 255, 255, 0.8);
     width: 500px;
     padding-left: 40%;
     padding-right: 40%;
     padding-bottom: 40%;
-    
+
 }
 
 html {
@@ -74,18 +81,70 @@ header>li>ul a:hover {
     padding-right: 5px;
 }
 
-.content > li {
-    list-style: none ;
-    
+.content>li {
+    list-style: none;
+
 }
 
 
 .content ul {
     width: 100%;
-} 
-.content ul > a {
+}
+
+.content ul>a {
     color: black;
 
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
 
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #124c8fbb;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0f3a6e;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    object-fit: contain;
+}

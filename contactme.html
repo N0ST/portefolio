@@ -27,8 +27,30 @@
     <div class="content">
         <h2>contact me</h2>
         <li>
-            <ul> <img src="img/github-mark.png" class="socialmedia" alt=""><a href="https://github.com/N0ST">my github</a></ul>
+            <ul> <img src="img/github-mark.png" class="socialmedia" alt=""><a href="https://github.com/N0ST">my
+                    github</a></ul>
         </li>
+        <form class="contact-form" action="mailto:your@email.com" method="POST" enctype="text/plain">
+            <div class="form-group">
+                <img src="img/hat.png" alt="User Icon" class="form-icon">
+                <label for="name">Name</label>
+            </div>
+            <input type="text" id="name" name="name" required>
+
+            <div class="form-group">
+                <img src="img/quill-ink_38954.png" alt="Email Icon" class="form-icon">
+                <label for="email">Email</label>
+            </div>
+            <input type="email" id="email" name="email" required>
+
+            <div class="form-group">
+                <img src="img/scroll_icon_126532.png" alt="Message Icon" class="form-icon">
+                <label for="message">Message</label>
+            </div>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
     </div>
 </body>
 
